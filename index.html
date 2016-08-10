@@ -2,13 +2,15 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Lyrics for Spotify</title>
+    <link rel="stylesheet" href="./index.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <header>
+      <h2 id="artist">Artist</h2>
+      <h2 id="song">Song</h2>
+    </header>
+    <p id="lyric">...</p>
   </body>
 
   <script>

@@ -12,5 +12,10 @@
     "spotify"
   ],
   "author": "Azh Setiawan",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@jonny/spotify-web-helper": "^1.0.4",
+    "cheerio": "^0.20.0",
+    "request": "^2.74.0"
+  }
 }

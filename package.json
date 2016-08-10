@@ -1,0 +1,16 @@
+{
+  "name": "lyricspotify",
+  "version": "0.1.1",
+  "description": "Get lyrics for Spotify",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "lyric",
+    "spotify"
+  ],
+  "author": "Azh Setiawan",
+  "license": "MIT"
+}
